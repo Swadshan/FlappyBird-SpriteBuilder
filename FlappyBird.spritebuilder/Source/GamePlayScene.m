@@ -17,7 +17,7 @@
     // put update code here
     //Aditi Saravanan Developing Game - 2
     character = (Character*)[CCBReader load:@"Character"];
-    //[physicsNode addChild:character];
+    [physicsNode addChild:character];
 }
 
 // put new methods here
