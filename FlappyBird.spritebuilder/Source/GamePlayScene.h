@@ -19,6 +19,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 {
     // define variables here;
     float timeSinceObstacle;
+    // Aditi Saravanan Developing Game - 1
     Character*     character;
     CCPhysicsNode* physicsNode;
 }
