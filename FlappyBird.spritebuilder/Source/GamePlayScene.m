@@ -8,15 +8,17 @@
 {
     // your code here
     //[self addObstacle];
-    [self addObstacle];
-    timeSinceObstacle = 0.0f;
+    character = (Character*)[CCBReader load:@"Character"];
+    [physicsNode addChild:character];
+  //  [self addObstacle];
+  //  timeSinceObstacle = 0.0f;
 }
 
 -(void)update:(CCTime)delta
 {
     // put update code here
     //Aditi Saravanan Developing Game - 2
-    character = (Character*)[CCBReader load:@"Character"];
+   /* character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild:character];
     
     // Increment the time since the last obstacle was added
@@ -30,7 +32,7 @@
         
         // Then reset the timer.
         timeSinceObstacle = 0.0f;
-    }
+    }*/
 }
 
 // put new methods here
