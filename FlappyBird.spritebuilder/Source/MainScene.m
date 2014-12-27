@@ -65,7 +65,8 @@
     for (CCNode *cloud in _clouds) {
         // move the cloud
         cloud.position = ccp(cloud.position.x -
-                             (character.physicsBody.velocity.x * Delta), cloud.position.y);
+                             (character.physicsBody.velocity.x ), cloud.position.y);
+//                             (character.physicsBody.velocity.x * delta), cloud.position.y);
         
         // if the left corner is one complete width off the screen,
         // move it to the right
