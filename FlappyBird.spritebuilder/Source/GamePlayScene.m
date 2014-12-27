@@ -11,7 +11,7 @@
     character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild:character];
     [self addObstacle];
-  //  timeSinceObstacle = 0.0f;
+   timeSinceObstacle = 0.0f;
 }
 
 -(void)update:(CCTime)delta
@@ -20,6 +20,7 @@
     //Aditi Saravanan Developing Game - 2
    /* character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild:character];
+    */
     
     // Increment the time since the last obstacle was added
     timeSinceObstacle += delta; // delta is approximately 1/60th of a second
@@ -32,7 +33,7 @@
         
         // Then reset the timer.
         timeSinceObstacle = 0.0f;
-    }*/
+    }
 }
 
 // put new methods here
