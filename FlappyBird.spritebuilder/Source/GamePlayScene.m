@@ -9,7 +9,7 @@
     // your code here
     //[self addObstacle];
     [self addObstacle];
-    timeSinceObstacle = 10.0f;
+    timeSinceObstacle = 0.0f;
 }
 
 -(void)update:(CCTime)delta
